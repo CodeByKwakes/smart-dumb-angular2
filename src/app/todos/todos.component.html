@@ -1,3 +1,9 @@
 <div>
   <todo-form (onAdd)="addTodo($event)"></todo-form>
+  <hr>
+  <todo-list 
+    [todos]="todos" 
+    (onComplete)="completeTodo($event)" 
+    (onDelete)="removeTodo($event)">
+  </todo-list>
 </div>
