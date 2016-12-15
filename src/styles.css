@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+.todos {
+  border-color: red;
+  border-style: dashed;
+}
+
+.todo-form {
+  border-color: blue;
+  border-style: dashed;
+}
+
+.todo-list {
+  border-color: limegreen;
+  border-style: dashed;
+}
+
+.todo {
+  border-color: yellow;
+  border-style: dashed;
+}

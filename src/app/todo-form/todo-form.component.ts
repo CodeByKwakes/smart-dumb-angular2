@@ -1,3 +1,4 @@
+import { TodoListComponent } from './../todo-list/todo-list.component';
 import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
@@ -6,6 +7,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./todo-form.component.css']
 })
 export class TodoFormComponent {
+  title = 'Todo Form (TodoFormComponent)'
   label: string;
   @Output() onAdd = new EventEmitter();
 

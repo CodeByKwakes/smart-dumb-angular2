@@ -6,6 +6,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent {
+  title = 'Todo List (TodoListComponent)'
   @Input() todos;
   @Output() onComplete = new EventEmitter();
   @Output() onDelete   = new EventEmitter();

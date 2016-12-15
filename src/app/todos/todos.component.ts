@@ -1,3 +1,4 @@
+import { TodoComponent } from './../todo/todo.component';
 import { Component, OnInit } from '@angular/core';
 import { TodoService } from '../todo.service';
 
@@ -7,6 +8,7 @@ import { TodoService } from '../todo.service';
   styleUrls: ['./todos.component.css']
 })
 export class TodosComponent implements OnInit {
+  title = 'Todos Smart Component (TodoComponent)'
   todos: any[];
 
   constructor(private todoService: TodoService) { }
