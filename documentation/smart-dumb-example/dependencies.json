@@ -1,0 +1,410 @@
+[
+  {
+    "name": "AppRoutingModule",
+    "file": "__path__/app/app-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forRoot(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 178,
+        "end": 220,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 178,
+          "end": 188,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 189,
+          "end": 220,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 191,
+              "end": 219,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 191,
+                "end": 211,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 191,
+                  "end": 203,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 203,
+                  "end": 204,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 204,
+                  "end": 211,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 212,
+                  "end": 218,
+                  "flags": 0,
+                  "text": "routes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 221,
+        "end": 247,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 221,
+          "end": 231,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 232,
+          "end": 247,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 234,
+              "end": 246,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 248,
+        "end": 264,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 248,
+          "end": 260,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 261,
+          "end": 264,
+          "flags": 0,
+          "elements": []
+        }
+      }
+    ]
+  },
+  {
+    "name": "AppModule",
+    "file": "src/app/app.module.ts",
+    "providers": [
+      {
+        "name": "TodoService"
+      }
+    ],
+    "declarations": [
+      {
+        "name": "AppComponent",
+        "file": "src/app/app.component.ts",
+        "selector": "app-root",
+        "providers": [],
+        "templateUrl": [
+          "app.component.html"
+        ],
+        "styleUrls": [
+          "app.component.css"
+        ],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 56,
+            "end": 79,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 56,
+              "end": 67,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 68,
+              "end": 79,
+              "flags": 0,
+              "text": "app-root"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 80,
+            "end": 118,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 80,
+              "end": 94,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 95,
+              "end": 118,
+              "flags": 0,
+              "text": "./app.component.html"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 119,
+            "end": 156,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 119,
+              "end": 131,
+              "flags": 0,
+              "text": "styleUrls"
+            },
+            "initializer": {
+              "kind": 167,
+              "pos": 132,
+              "end": 156,
+              "flags": 0,
+              "elements": [
+                {
+                  "kind": 9,
+                  "pos": 134,
+                  "end": 155,
+                  "flags": 0,
+                  "text": "./app.component.css"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "TodosComponent"
+      },
+      {
+        "name": "TodoFormComponent"
+      },
+      {
+        "name": "TodoListComponent"
+      },
+      {
+        "name": "TodoComponent"
+      }
+    ],
+    "imports": [
+      {
+        "name": "BrowserModule"
+      },
+      {
+        "name": "FormsModule"
+      },
+      {
+        "name": "HttpModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [
+      {
+        "name": "AppComponent"
+      }
+    ],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 559,
+        "end": 690,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 559,
+          "end": 575,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 576,
+          "end": 690,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 578,
+              "end": 596,
+              "flags": 0,
+              "text": "AppComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 597,
+              "end": 617,
+              "flags": 0,
+              "text": "TodosComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 618,
+              "end": 641,
+              "flags": 0,
+              "text": "TodoFormComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 642,
+              "end": 665,
+              "flags": 0,
+              "text": "TodoListComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 666,
+              "end": 685,
+              "flags": 0,
+              "text": "TodoComponent"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 691,
+        "end": 764,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 691,
+          "end": 702,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 703,
+          "end": 764,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 705,
+              "end": 724,
+              "flags": 0,
+              "text": "BrowserModule"
+            },
+            {
+              "kind": 69,
+              "pos": 725,
+              "end": 742,
+              "flags": 0,
+              "text": "FormsModule"
+            },
+            {
+              "kind": 69,
+              "pos": 743,
+              "end": 759,
+              "flags": 0,
+              "text": "HttpModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 765,
+        "end": 793,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 765,
+          "end": 778,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 779,
+          "end": 793,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 781,
+              "end": 792,
+              "flags": 0,
+              "text": "TodoService"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 794,
+        "end": 823,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 794,
+          "end": 807,
+          "flags": 0,
+          "text": "bootstrap"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 808,
+          "end": 823,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 810,
+              "end": 822,
+              "flags": 0,
+              "text": "AppComponent"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
