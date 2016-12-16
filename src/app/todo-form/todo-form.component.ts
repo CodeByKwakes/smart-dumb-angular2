@@ -1,4 +1,3 @@
-import { TodoListComponent } from './../todo-list/todo-list.component';
 import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
